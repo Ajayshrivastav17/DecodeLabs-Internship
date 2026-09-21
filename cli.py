@@ -176,6 +176,7 @@ def run_cli():
         elif args.filter == "not-done":
 
             list_tasks("todo")
+            list_tasks("in-progress")
 
         elif args.filter == "in-progress":
 
